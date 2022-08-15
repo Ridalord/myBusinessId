@@ -6,8 +6,8 @@ import linkedinIcon from "../img/linkedin.png"
 export default function Buttons() {
     return (
         <div className="buttons">
-            <button className="buttonMail" onClick={myMail}><img src={mailIcon} />Email</button>
-            <button className="buttonLinkedin" onClick={myLinkedin}><img src={linkedinIcon} />Linkedin</button>
+            <button className="buttonMail" onClick={myMail}><img src={mailIcon} alt="Mail" />Email</button>
+            <button className="buttonLinkedin" onClick={myLinkedin}><img src={linkedinIcon} alt="Linkedin" />Linkedin</button>
         </div>
     )
 }
