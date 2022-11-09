@@ -8,7 +8,7 @@ export default function Details() {
             <img src={profileImage} alt="Ridwan Alabi" className="profileImage" />
             <h1 className="userName">Ridwan Alabi</h1>
             <p className="userDescription">Frontend Developer</p>
-            <a href="#" class="userWebsite">ridwanalabi.website</a>
+            <a href="ridhwan.alabi@gmail.com" class="userWebsite">ridwanalabi.website</a>
         </div>
     )
 }
